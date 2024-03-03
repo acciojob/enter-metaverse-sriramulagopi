@@ -1,6 +1,6 @@
 //your JS code here. If required.
-const p = document.querySelector("p");
-const button = document.querySelector("button");
+const p = document.getElementById("status");
+const button = document.getElementById("enterBtn");
 button.addEventListener("click",()=>{
 	p.innerText="";
 	const newEle = document.createElement("h1");
